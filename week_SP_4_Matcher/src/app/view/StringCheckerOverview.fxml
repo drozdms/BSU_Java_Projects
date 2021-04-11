@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="300.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="app.view.StringCheckerOverviewController">
+   <children>
+      <ComboBox fx:id="comboBox" layoutX="56.0" layoutY="30.0" prefWidth="150.0" promptText="Select template..." />
+      <TextArea fx:id="area" layoutX="56.0" layoutY="81.0" prefHeight="170.0" prefWidth="407.0" promptText="type here..." wrapText="true">
+         <font>
+            <Font name="Ringbearer Medium" size="23.0" />
+         </font>
+      </TextArea>
+      <Button fx:id="button" layoutX="518.0" layoutY="19.0" mnemonicParsing="false" prefHeight="47.0" prefWidth="45.0" style="-fx-background-radius: 100; -fx-background-color: #e70000;" />
+   </children>
+</AnchorPane>

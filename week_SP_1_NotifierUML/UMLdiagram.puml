@@ -1,0 +1,39 @@
+@startuml
+annotation java.lang.Override
+class Academic
+class Course
+class Notifier
+class Person
+class Postgraduate
+class ProgrammingTest
+class Student
+class Undergraduate
+class java.io.File
+class java.io.FileNotFoundException
+class java.io.IOException
+class java.util.HashSet
+class java.util.NoSuchElementException
+class java.util.Scanner
+class java.util.Set
+interface Notifiable
+Academic ..> java.lang.Override
+Academic --|> Person
+Course ..> java.util.HashSet
+Course ..> java.util.Set
+Notifier ..> java.util.Set
+Person ..> java.lang.Override
+Postgraduate ..> java.lang.Override
+Postgraduate --|> Student
+ProgrammingTest ..> java.io.File
+ProgrammingTest ..> java.io.FileNotFoundException
+ProgrammingTest ..> java.io.IOException
+ProgrammingTest ..> java.util.HashSet
+ProgrammingTest ..> java.util.NoSuchElementException
+ProgrammingTest ..> java.util.Scanner
+ProgrammingTest ..> java.util.Set
+Student ..> java.lang.Override
+Student --|> Person
+Student --|> Notifiable
+Undergraduate ..> java.lang.Override
+Undergraduate --|> Student
+@enduml

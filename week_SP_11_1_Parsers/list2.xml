@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<bsu>
+<student id="1623263" name="Ben">
+<faculty>fpmi</faculty>
+<year>1998</year>
+<grade>2.0</grade>
+</student>
+
+<student id="1623333" name="Phil">
+<faculty>fpmi</faculty>
+<year>1999</year>
+<grade>8.0</grade>
+</student>
+
+</bsu>

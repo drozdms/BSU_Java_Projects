@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<rectangles>
+    <rectangle xFirst="0" yFirst="0" xSecond="100" ySecond="100" />
+    <rectangle xFirst="2" yFirst="5" xSecond="500" ySecond="500" />
+     <rectangle xFirst="5" yFirst="5" xSecond="10" ySecond="10" />
+     <rectangle xFirst="0" yFirst="0" xSecond="5" ySecond="10" />
+     <rectangle xFirst="0" yFirst="0" xSecond="5" ySecond="3120" />
+    
+</rectangles>

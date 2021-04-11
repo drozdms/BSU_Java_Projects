@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <title>Lab 10.1</title>
+    <link rel="stylesheet" href="main.css">
+    
+</head>
+<body>
+    <div class="nav">
+        <a class="nav-link" href="index.html">Student Form</a>
+        <a class="nav-link" href="timetable.html">Timetable</a>
+        <a class="nav-link" href="belarus.html">Belarus Map</a>
+    </div>
+
+    <div class="student-form">
+        <form>
+            <fieldset>
+            <legend align="center"><strong>Student Form:</strong></legend>
+            <label for="fname">First Name: </label>
+            <input name="fname" type="text" value=""> <br>
+            <label for="lname">Last Name: </label>
+            <input name="lname" type="text" value=""> <br>
+            Sex: <br>
+            <form><input checked="checked" name="sex" type="radio" value="male"> Male
+            <input name="sex" type="radio" value="female" > Female </form>  <br>
+            Birth Date: <input id="date" type="date" value="1998-06-22"><br>
+
+            Photo: <input name="photo" type="file">
+            <br><br>
+            What do you study?:
+            <select name="subject">
+                <option selected="selected" value="math">Applied Math and Computer Science</option>
+                <option value="Physics">Physics</option>
+                <option value="Languages">Languages</option>
+                <option value="Social">Social</option>
+                <option value="Business">Business</option>
+                <option value="Pedagogy">Pedagogy</option>
+                <option value="History">History</option>
+            </select><br> 
+            Your email:
+            <input name="email" type="email"> <br>
+            Set a password:
+            <input name="password" type="password"> <br>
+
+            About Yourself:<br>
+            <textarea name="about" cols="50" rows="10"></textarea><br> 
+            <input type="image" src="img/ok.png" width="30px" height="30px" alt="Submit Form">Submit
+            <button class="btn cancel-btn">
+                <img height="30" src="img/cancel.png">
+                <input type="reset" alt="Reset the form">
+            </button>
+            </fieldset>
+        </form>
+    </div>
+      
+    <script src="js/scripts.js"></script>            
+
+</body>
+</html>

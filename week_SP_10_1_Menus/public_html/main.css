@@ -1,0 +1,167 @@
+body {
+    font-family: 'Hobbiton', sans-serif;
+    background: url("img/middle-earth_Map.jpg");
+    width: 1200px;
+    margin: 0 auto;
+}
+
+table {
+  
+    width: 100%;
+}
+
+th, td {
+    color: #f4f4f4;
+    font-family: 'Ringbearer', sans-serif;
+    font-size: 1.5em;
+    text-align: left;
+    text-shadow: 2px 1px 1em #ffd200;
+    border-bottom: 1px solid #ddd;
+}
+
+
+
+tr:nth-child(even) {
+    background-color: #2b3740;
+} 
+
+tr:hover {
+    background-color: #352525;
+}
+
+.nav {
+    margin-top: 30px;
+    margin-bottom: 100px; 
+    text-align: center;
+}
+.nav-link {
+    color: white;
+    font-size: 1.5em;
+    width: 140px;
+    background: url("img/eye.png");
+    border-radius: 20%;
+    margin: 10px;
+    padding: 10px;
+}
+
+label {
+  display: inline-block;
+  width: 1200px;
+   font-size:30px;
+   color:lavender;
+  text-align: center;
+}
+
+form {
+    
+    width: 100%;
+    text-align: center;
+     font-size:30px;
+   color:lavender;
+    
+}
+
+
+.input [type="image"]
+{
+    width: 1%;
+    height: 1%;
+    padding: 0px 0px;
+    margin: 0px 0;
+    
+}
+
+
+input [type="text"], textarea, select {
+    padding: 3px;
+    margin: 2px;
+    border: 2px solid #dadada;
+    border-radius: 5px;
+    width: 300px;
+    text-align: right;
+    
+}
+
+input [type="text"]:focus, textarea:focus, select:focus { 
+    outline: none;
+    border-color: #9ecaed;
+    box-shadow: 0 0 10px #9ecaed;
+}
+
+
+
+
+
+.btn {
+    border-radius: 5px;
+    font-size: 1.2em;
+    padding: 5px;
+    margin-top: 10px;
+}
+.submit-btn {
+    background-color: dodgerblue;
+    color: white;
+    width: 70%;
+
+}
+.cancel-btn {
+    width: 8%;
+}
+
+
+.sectiontimetable {
+  
+  background-color: black;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+.modalDialog {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.8);
+    z-index: 99999;
+    opacity:0;
+    pointer-events: none;
+}
+.modalDialog:target {
+    opacity:1;
+    pointer-events: auto;
+}
+.modalDialog > div {
+    width: 300px;
+    position: relative;
+    margin: 10% auto;
+    padding: 5px 20px 13px 20px;
+    border-radius: 10px;
+    background: #fff;
+
+}
+.close {
+    background: #606061;
+    color: #FFFFFF;
+    line-height: 25px;
+    position: absolute;
+    right: -12px;
+    text-align: center;
+    top: -10px;
+    width: 24px;
+    text-decoration: none;
+    font-weight: bold;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    border-radius: 12px;
+    -moz-box-shadow: 1px 1px 3px #000;
+    -webkit-box-shadow: 1px 1px 3px #000;
+    box-shadow: 1px 1px 3px #000;
+}
+.close:hover {
+    background: #00d9ff;
+}
+

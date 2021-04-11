@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<students>
+
+<student surname="Drogba" number="1620000">
+	<marks course="1">
+	  <subject subject="MathAnalysis" mark="1" />
+	  <subject subject="Programming" mark="3" />
+	  <subject subject="Geometry" mark="2" />
+	  <subject subject="PE" mark="1" />
+	</marks>
+
+	<marks course="2">
+	  <subject subject="MathAnalysis" mark="2" />
+	  <subject subject="Programming" mark="7" />
+	  <subject subject="Geometry" mark="1" />
+	  <subject subject="PE" mark="4" />
+	</marks>
+
+</student>
+
+<student surname="Bale" number="1623233">
+	<marks course="1">
+	  <subject subject="Algorithm" mark="1" />
+	  <subject subject="Programming" mark="2" />
+	</marks>
+
+</student>
+
+
+<student surname="DiMaria" number="1912228">
+
+	<marks course="1">
+	  <subject subject="Geometry" mark="3" />
+	  <subject subject="Programming" mark="8" />
+	</marks>
+	<marks course="2">
+	  <subject subject="Geometry" mark="7" />
+	  <subject subject="Programming" mark="10" />
+	</marks>
+
+</student>
+
+
+<student surname="Drozd" number="1929902">
+
+	<marks course="1">
+	  <subject subject="Animation" mark="9" />
+	  <subject subject="MathAnalysis" mark="9" />
+	</marks>
+	<marks course="2">
+	  <subject subject="MathAnalysis" mark="10" />
+	</marks>
+
+</student>
+
+
+<student surname="Jack" number="1237882">
+	<marks course="1">
+	  <subject subject="Programming" mark="1" />
+	  <subject subject="Algorithm" mark="2" />
+	</marks>
+</student>
+
+
+</students>
+	    

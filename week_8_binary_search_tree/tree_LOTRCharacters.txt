@@ -1,0 +1,13 @@
+Boromir 2978
+Sam 2980
+Arwen 241
+Legolas 1000
+Pippin 2990
+Gandalf -10000000
+Galadriel -10000
+Merry 2982
+Frodo 2968
+Aragorn 2931
+Elrond -5000
+Gimli 2879
+Faramir 2983

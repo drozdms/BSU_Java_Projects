@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="week_SP_4_Matcher.jnlp">
+  <information>
+    <title>week_SP_4_Matcher</title>
+    <vendor>drozd</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="week_SP_4_Matcher.jar" size="8881" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="week_SP_4_Matcher" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="app.MatcherDemo"  name="week_SP_4_Matcher" />
+  <update check="always"/>
+</jnlp>

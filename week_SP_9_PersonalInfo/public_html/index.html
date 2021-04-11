@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <title>Info About Me</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+    <!-- Custom styles for this template -->
+    <link href="stylesheet.css" rel="stylesheet">
+
+  </head>
+
+  <body id="page-top">
+
+    <!-- Navigation -->
+  <nav class="navpanel navbar-expand-lg navbar-light fixed-top" id="mainNav">
+      <div class="container">
+        <a class="navbar-brand" href="#page-top">Middle-Earth</a>
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About Bilbo</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#card">Card</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#adventure">Adventure</a>
+            </li>
+          </ul>
+      </div>
+    </nav>
+
+
+    <!-- Intro Header -->
+    <header class="header">
+      <div class="intro-body">
+              <h1 class="brand-heading">Middle-Earth</h1>
+              <p class="intro-text">In a hole in the ground there lived a hobbit...</p>
+              <a href="#about" class="btn btn-circle js-scroll-trigger">
+                <i class="fa fa-angle-double-down animated"></i>
+              </a>
+      </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="content-section text-center">
+      <div class="container">
+          <div class="col-lg-8 mx-auto">
+            <h2>About Bilbo</h2>
+            <p><img src="../img/bilbo.jpg" alt="Bilbo Baggins" style="float:left;width:398px;height:600px;"><a href="http://lotr.wikia.com/wiki/Bilbo_Baggins">Bilbo Baggins</a> was born on September 22 by Shire Reckoning, in the year 2890 of the Third Age, the son of Bungo Baggins and Belladonna Took. He was a grandson of the Old Took.
+              <a href="http://lotr.wikia.com/wiki/Gandalf">Gandalf</a> suggested Bilbo Baggins to be hired by Thorin and Company to be their burglar in the Quest of Erebor, and later fought in the Battle of the Five Armies. Bilbo was also one of the bearers of the 
+              <a href="http://lotr.wikia.com/wiki/One_Ring">One Ring</a>, and the first to voluntarily give it up, although with some difficulty. He wrote many of his adventures in a book he called 
+              <a href="https://www.goodreads.com/book/show/20696018-there-and-back-again">There and Back Again</a>. Bilbo adopted Frodo Baggins as his nephew after his parents, Drogo Baggins and Primula Brandybuck, drowned in the Brandywine River. </p>
+          </div>
+      </div>
+    </section>
+    
+    <audio id="TheBridgeOfKhazadDum">
+	<source src="../audio/The Bridge Of Khazad Dum.mp3"></source>
+    </audio>
+
+    <!-- Download Section -->
+    <section id="card" class="card-section text-center">
+        <a href="https://www.tolkiensociety.org/">
+          <img onmouseover="playSound()" onmouseout="stopSound()" style="width:450px;height:597px;"  class="card" align="middle">
+        </a> 
+    </section>
+    
+    <script>
+    function playSound() {
+        var x = document.getElementById("TheBridgeOfKhazadDum");
+        x.play();
+    }
+    function stopSound() {
+        var x = document.getElementById("TheBridgeOfKhazadDum");
+        x.pause();
+    }
+    </script>
+
+    <!-- Contact Section -->
+    <section id="adventure" class="table-section text-center">
+        <p class="intro-text">Hobbits travelling to Rivendell</p>
+                    <table width="80%">
+              <tr>
+                <th>Place</th>
+                <th>Events</th>
+                <th>Date</th>
+              </tr>
+              <tr>
+                <td>Bag End</td>
+                <td>Four Ringwraiths enter the Shire before dawn. Frodo, Sam, and Pippin leave Bag End.</td>
+                <td>September 23, 3018</td>
+              </tr>
+              <tr>
+                <td>The Old Forest</td>
+                <td>Frodo, Sam, Pippin, and Merry enter the Old Forest and find Tom Bombadil.</td>
+                <td>September 26, 3018</td>
+              </tr>
+              <tr>
+                <td>Bree</td>
+                <td>The hobbits arrive at Bree at nightfall. Gandalf visits The Gaffer. Aragorn meets Frodo in the Inn of the Prancing Pony.</td>
+                <td>September 29, 3018</td>
+              </tr>
+            
+              <tr>
+                <td>Weathertop</td>
+                <td>The night at Weathertop. The Nazgul locate Aragorn and the four hobbits. Frodo Baggins is hurt by a Morgul blade.</td>
+                <td>October 6, 3018</td>
+              </tr>
+              <tr>
+                <td>Last Bridge</td>
+                <td>Aragorn and the hobbits cross the bridge.</td>
+                <td>October 13, 3018</td>
+              </tr>
+              <tr>
+                <td>Bruinen</td>
+                <th>Escape beyond Bruinen.</th>
+                <td>October 20, 3018</td>
+              </tr>
+               <tr>
+                <td>Rivendell</td>
+                <th>Frodo awakes in the House of Elrond at Rivendell with Gandalf at his side. Boromir arrives at Rivendell by nightfall.</th>
+                <td>October 24, 3018</td>
+              </tr>
+              <tr>
+                <td>Rivendell</td>
+                <th>Council of Elrond.</th>
+                <td>October 25, 3018</td>
+              </tr>
+            </table>
+    </section>
+
+    
+
+    <!-- Footer -->
+    <footer>
+      <div class="container text-center">
+        <p>Copyright &copy; Mark Drozd 2018</p>
+      </div>
+    </footer>
+  </body>
+
+</html>

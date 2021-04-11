@@ -1,0 +1,186 @@
+html {
+	position: relative;
+	min-height: 100%;
+}
+
+body{
+	background-color:black;
+        color: white;
+        
+}
+
+p{
+	color:white;
+        font-size: 1em;
+        text-shadow: 2px 2px black;
+}
+
+.content {
+	background: url("background.png");
+        height: 670px;
+	font-family: 'Charlemagne Std', serif;
+      
+	font-size: 18px;
+	margin: 8px;
+	overflow: 0;
+}
+
+.content h2 {
+	font-family: 'Ringbearer';
+	font-size: 2.2em;
+        width:100%;
+        text-align: center;
+	color: blanchedalmond;
+	margin: 8px;
+        
+}
+
+.content h4 {
+	font-family: 'Bilbo-hand-fine';
+	font-size: 2.2em;
+        width:100%;
+        text-align: center;
+	color: blanchedalmond;
+	margin: 8px;
+}
+
+.content h3 {
+	font-family: 'Freestyle Script';
+	font-size: 2em;
+	color:mediumturquoise;
+}
+
+a {
+	color: white;
+        font-family: 'Ringbearer', sans-serif;
+        font-size: 1.0em;
+        
+}
+
+
+header .menu-bar a {
+	color: black;
+        font-family: 'Ringbearer', sans-serif;
+        font-size: 2.0em;
+}
+
+header .menu-bar .dropdown .dropbtn {
+	color: black;
+        font-family: 'Ringbearer', sans-serif;
+        font-size: 2.0em;
+}
+
+
+header {
+	background: url("gradient.png");
+	color: black;
+	min-width: 100%;
+}
+
+.menu-bar {
+    overflow: hidden;
+    background-color: inherit;
+    font-family: 'Charlemagne Std', sans-serif;
+}
+
+.menu-bar a {
+    float: left;
+    font-size: 20px;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    cursor: pointer;
+    font-size: 20px;
+    font-family: 'Charlemagne Std', sans-serif;
+    border: none;
+    outline: none;
+    color: black;
+    padding: 14px 16px;
+    background-color: inherit;
+}
+
+.menu-bar a:hover, .dropdown:hover .dropbtn {
+    background-color: white;
+}
+
+.dropdown-content {
+	color: yellow;
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content button {
+	cursor: pointer;
+    font-size: 20px;
+    font-family: 'Charlemagne Std', sans-serif;
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    border: none;
+    outline: none;
+    background-color: inherit;
+    width: 100%;
+}
+
+.dropdown-content button:hover {
+    background-color: yellow;
+}
+
+.show {
+    display: block;
+}
+
+
+footer {
+	position: relative;
+	left: 0;
+	bottom: 0;
+	padding: 20px;
+        width: 80%;
+        text-align: right;
+        overflow:hidden;
+        font-family: 'Charlemagne Std', serif;
+}
+
+.left-float {
+	float: left;
+	margin-right: 20px;
+	padding: 0px;
+}
+
+.normal {
+	font-weight: normal;
+}
+
+
+body h1 {
+    font-family: 'Ringbearer', sans-serif;
+    font-size: 1.5em;
+    
+}
+
+
+header h1 {
+	font-family: 'Ringbearer';
+        color:azure;
+	font-size: 3.0em;
+	margin-left: 8px;
+	margin-bottom: 0px;
+	margin-top: 8px;
+}

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<students>
+<student surname="Gareth" number="1727278">
+<marks course="4">
+<subject subject="Programming" mark="9" />
+</marks>
+</student>
+<student surname="Chris" number="2892299">
+<marks course="3">
+<subject subject="Geometry" mark="2" />
+</marks>
+</student>
+<student surname="Michael" number="2892219">
+<marks course="3">
+<subject subject="Algorithm" mark="3" />
+</marks>
+</student>
+<student surname="Suan" number="9882287">
+<marks course="3">
+<subject subject="Programming" mark="2" />
+<subject subject="Geometry" mark="3" />
+<subject subject="MathAnalysis" mark="3" />
+</marks>
+</student>
+<student surname="Shinzo" number="9882987">
+<marks course="3">
+<subject subject="Programming" mark="10" />
+<subject subject="MathAnalysis" mark="2" />
+</marks>
+</student>
+<student surname="Loser" number="298319">
+<marks course="4">
+<subject subject="Winning" mark="0" />
+</marks>
+</student>
+</students>
